@@ -13,3 +13,7 @@ push:
 deploy: OP=create
 deploy:
 	@kubectl ${OP} -f ${MANIFEST}/.
+
+clean: OP=delete
+clean:
+	@kubectl ${OP} -f ${MANIFEST}/.
