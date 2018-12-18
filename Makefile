@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 MANIFEST=./manifest
-IMAGE=10.254.0.50:5000/mysql:5.7
+IMAGE=gmt.reg.me/test/mysql:5.7
 
 all: build push deploy
 
